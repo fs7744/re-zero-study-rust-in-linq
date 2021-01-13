@@ -141,3 +141,9 @@ struct Number {
     y : Box<Number>
 }
 ```
+
+## Rust 不支持
+
+* Rust 函数没有尾递归调用优化 https://zhuanlan.zhihu.com/p/148028147
+* 不支持 yield （可手动实现 iterator）
+* 不支持类型继承（subtyping）
