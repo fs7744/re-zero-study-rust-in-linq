@@ -1,10 +1,18 @@
 ## Install Rust
 
-1. download rustup-init.exe from https://www.rust-lang.org/learn/get-started
+1. 安装 wsl2
 
-2. 安装vs2019 中的 c++ 
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-（因为我在window 10 使用 msvc 版本的 Rust, 需要VisualC++的工具链）
+ps：
+
+wsl2 的 localhost 和 win10 是不同的， wsl2 中对应win10 的 ip 在 /cat/resolv.conf 中
+
+而win10 可以通过localhost 访问 wsl2 中的服务
+
+2. 安装 rust
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 3. 选择 ide
 
