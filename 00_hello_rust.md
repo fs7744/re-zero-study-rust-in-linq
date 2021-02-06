@@ -6,7 +6,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ps：
 
-wsl2 的 localhost 和 win10 是不同的， wsl2 中对应win10 的 ip 在 /cat/resolv.conf 中
+wsl2 的 localhost 和 win10 是不同的， wsl2 中对应win10 的 ip 在 /etc/resolv.conf 中
 
 而win10 可以通过localhost 访问 wsl2 中的服务
 
